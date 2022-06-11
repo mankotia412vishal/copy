@@ -79,6 +79,7 @@
     height: 40px;
 }
 input.post_submit{
+    font-family: "Times New Roman", Times, serif;
 width: 100%;
 background: #2381fa;
 padding: 10px 20px ;
@@ -93,9 +94,12 @@ cursor: pointer;
 margin-top: 20px;
 }
 .uploading{
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     text-align: center;
-    
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
 background: green;
 padding: 10px 20px ;
@@ -108,4 +112,7 @@ outline: 0;
 border-radius: 5px;
 cursor: pointer;
 margin-top: 20px;
+justify-content: center;
+
+
 }
