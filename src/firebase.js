@@ -1,8 +1,8 @@
 import firebase from "firebase"
 
 
-// 4 files in this config file
-
+// 7 files in this config file
+// VippyDrive
 
 const firebaseConfig = {
     apiKey: "AIzaSyB8ue5qaXtLfjMYcPnmaXu6oZ2hqYPfz9U",
@@ -34,6 +34,30 @@ const firebaseConfig = {
 //   storageBucket: "sdp-vishal-sem4.appspot.com",
 //   messagingSenderId: "720287439713",
 //   appId: "1:720287439713:web:f6947b217599586b3c8320"
+// };
+
+// new one created at 12 june for deploy try `VippyDriveD`
+// const firebaseConfig = {
+//   apiKey: "AIzaSyA-8IOtSueKdCoN0KDTh0qH59ZQKAADVuM",
+//   authDomain: "vippydrived.firebaseapp.com",
+//   projectId: "vippydrived",
+//   storageBucket: "vippydrived.appspot.com",
+//   messagingSenderId: "636476143931",
+//   appId: "1:636476143931:web:fadd0d491236ec85e7df1e"
+// };
+
+
+// newp
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDMko2mfvkVLAPhlZDbYqhRQ6Aam0MA-ts",
+//   authDomain: "newp-9ccb0.firebaseapp.com",
+//   projectId: "newp-9ccb0",
+//   storageBucket: "newp-9ccb0.appspot.com",
+//   messagingSenderId: "229110225095",
+//   appId: "1:229110225095:web:f0e894a2f79372edb946e2",
+//   measurementId: "G-R9S9HXMZM1"
 // };
 
 const firebaseApp=firebase.initializeApp(firebaseConfig);
